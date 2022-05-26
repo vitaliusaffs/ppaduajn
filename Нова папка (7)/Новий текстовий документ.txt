@@ -1,0 +1,213 @@
+пакет  com . компанія ;
+
+клас  бригади  продовжує  пожежний {
+    приватні  int  firefightersInReserve ;
+    приватні  int  firefightersInUniform ;
+    рядові  лейтенанти ; _ 
+
+    Бригада ( int  firefightersInReserve , int  firefightersInUniform , int  лейтенанти ) {
+        супер ();
+        це . firefightersInReserve = firefightersInReserve ;
+        це . firefightersInUniform = firefightersInUniform ;
+        це . лейтенанти = лейтенанти ;
+    }
+
+    громадська  бригада () {
+
+    }
+
+    недійсна  сума () {
+        int  сума ;
+        сума = firefightersInReserve ; + firefightersInUniform ; + лейтенанти ;
+        система . поза . println ( "Пожежна бригада складається " + sum + " пожежників" );
+    }
+
+    int  мінус () {
+        int  зміна = 5 ;
+        повернення  firefightersInReserve - зміна ;
+    }
+    void  sum ( int  firefightersInReserve , int  firefightersInUniform , int  lieutenan ; ts ) {
+        int  сума ;
+        сума = firefightersInReserve ; + firefightersInUniform ; + лейтенанти ;
+        система . поза . println ( "Пожежна бригада номер2 складається " + sum + " пожежників" );
+    }
+
+    static  void  test ( int  z , int  x , int ... v ) {
+        int  firefightersInReserve = z ;
+        int  firefightersInUniform = x ;
+        if ( пожежники в резерві +   пожежні в уніформі > 22 ) {
+            система . поза . println ( "Бригада в повному складі" );
+        } else  if ( playersOnField + playersOnChange == 22 ) {
+            система . поза . println ( "Все правильно" );
+        } ще {
+            система . поза . println ( "Щось не то" );
+        }
+    }
+}пакет  com . компанія ;
+
+клас  Firerecangular  розширює  Fireman {
+    приватна  подвійна  довжина ;
+    приватна  подвійна  ширина ;
+
+    Вогонь прямокутний ( подвійна  довжина , подвійна  ширина ) {
+        супер ();
+        це . довжина = довжина ;
+        це . ширина = ширина ;
+    }
+
+    пустий  периметр () {
+        подвійний  периметр = 2 * ( довжина + ширина );
+        система . поза . println ( "Пожежний прямокутник; " + периметр );
+    }
+
+    подвійний  квадрат () {
+        подвійний  квадрат = довжина * ширина ;
+        зворотний  квадрат ;
+    }
+
+    int  square ( int  length , int  width ) {
+        int  квадрат = довжина * ширина ;
+        зворотний  квадрат ;
+    }
+
+    Прямокутний вогонь ( подвійний  v ) {
+        довжина = ширина = v ;
+    }
+
+    Firerectangular ( Firerectangular fires  ) {
+        довжина = пожежі . довжина ;
+        ширина = пожежі . ширина ;
+    }
+
+    Firerectangular ( int  length , int  width ) {
+        це . довжина = довжина ;
+        це . ширина = ширина ;
+    }
+
+    static  void  test ( int  v , int  c , int ... z ) {
+        int  довжина = v ;
+        int  ширина = c ;
+        if ( довжина * ширина > 250 ) {
+            система . поза . println ( "Площа першої пожежі" );
+        } ще {
+            система . поза . println ( "Площа другої пожежі" );
+        }
+    }
+пакет  com . компанія ;
+
+ Пожежники загального класу  продовжують роботу Fireman {  
+
+    Пожежники ( цілий  вік , подвійна  вага , подвійний  зріст ) {
+        супер ( вік , вага , зріст );
+    }
+
+    громадські  пожежники () {
+
+    }
+
+    void  methodFoot (){
+        індекс1 ();
+        подвійний  v ;
+        v = getWeight () + getHeight ();
+        система . поза . println ( "Вага і ріст пожежника разом стає: " + v );
+    }
+    void  test () {
+        Striker  vova = новий  Striker ();
+        вова . methodStriker ();
+    }
+    клас  Striker {
+        void  methodStriker () {
+            система . поза . println ( "Зріст лейтенанта є: " + getHeight ());
+            methodFoot ();
+        }
+    }
+    void  wei () {
+        вік ();
+        подвійний  w = getWeight ();
+        система . поза . println ( "Вага лейтенанта є: " + w );
+    }
+пакет  com . компанія ;
+
+клас  Firefighters1 {
+    приватний  вік  ; _
+    приватна  подвійна  вага ;
+    приватна  подвійна  висота ;
+
+    Пожежники1 ( цілий  вік , подвійна  вага , подвійний  зріст ) {
+        супер ();
+        це . вік = вік ;
+        це . вага = вага ;
+        це . висота = висота ;
+    }
+
+
+    громадські  пожежники1 () {
+
+    }
+
+    void  index1 () {
+        подвійний  індекс ;
+        індекс = вага / ( зріст * зріст );
+        система . поза . println ( "Індекс маси тіла: " + індекс );
+    }
+
+    подвійний  ідеал1 () {
+        подвійний  ідеал ;
+        ідеальний = ( висота + 90 ) * 0,8 ;
+        повернути  ідеал ;
+    }
+    void  time ( подвійна  швидкість , подвійна  TheFireGetsStronger ) {
+        подвійний  t = швидкість / TheFireGetsStronger ;
+        якщо ( t > 7 ) {
+            система . поза . println ( "Ліпше тушіть вогонь" );
+        } ще {
+            система . поза . println ( "Молодці" );
+        }
+    }
+
+    void  index1 ( подвійна  висота , подвійна  вага ) {
+        подвійний  індекс ;
+        індекс = вага / ( зріст * зріст );
+        система . поза . println ( "Індекс маси тіла2: " + індекс );
+    }
+    статичний  тест пустот  ( int z , int x , int ... c ) {  
+        подвійний  індекс1 = z ;
+        подвійний  ідеал1 = x ;
+        якщо ( індекс1 > ідеальний1 ) {
+            система . поза . println ( "Шось не то" );
+        } ще {
+            система . поза . println ( "Все добре" );
+        }
+    }
+
+    public  int  getAge () {
+        повернення  віку ;
+    }
+    public  void  setAge ( int  age ) {
+        це . вік = вік ;
+    }
+
+    public  double  getWeight () {
+        зворотна  вага ;
+    }
+    public  void  setWeight ( подвійна  вага ) {
+        це . вага = вага ;
+    }
+
+    публічний  подвійний  getHeight () {
+         висота повернення ;
+    }
+    public  void  setHeight ( подвійна  висота ) {
+        це . висота = висота ;
+    }
+
+
+    void  back ( Firefighters  firefighters , Team  team1 ) {
+        система . поза . println ( "Територія яка охоплена вогнем" + firefighters . getLength () + ", " + firefighters . getWidth () + ". Пожежники, які тушили пожежу " + team1 . getFirefightersInReserve ());
+    }
+    void  agge () {
+        індекс1 ();
+        int  m ;
+        m = getAge ();
+        система . поза . println ( "Вік пожежника: " + m );
+    }
